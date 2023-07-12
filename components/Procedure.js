@@ -1,5 +1,5 @@
-import Image from 'next/image'
 import '../app/globals.css'
+import Image from 'next/image'
 import Sun from '../assets/sun.png'
 import Path from '../assets/path.png'
 const Procedure = () => {

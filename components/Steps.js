@@ -36,8 +36,8 @@ const Steps = () => {
             iconClassName='flex justify-center items-center '
 
           >
-            <h4 className="vertical-timeline-element-subtitle">It’s not as easy as 1-2-3.</h4>
-            <h3 className="vertical-timeline-element-title">The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else).</h3>
+            <h3 className="vertical-timeline-element-title text-black font-semibold text-lg ">It’s not as easy as 1-2-3.</h3>
+            <h4 className="vertical-timeline-element-subtitle text-[#535353] font-medium text-sm">The journey of change may be long, but our sessions are quick. We get to the point and tell you what you want to know (and nothing else).</h4>
            
           </VerticalTimelineElement>
 
