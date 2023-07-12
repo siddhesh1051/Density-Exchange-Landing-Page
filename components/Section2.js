@@ -1,7 +1,7 @@
 
 const Section2 = () => {
   return (
-    <section className='md:px-40 flex items-start justify-between font-[Montserrat]  mt-24 h-28 w-[90%]'>
+    <section className='md:px-40 flex items-start justify-between font-[Montserrat]  mt-32 h-28 w-[90%]'>
       <div className='flex justify-start items-start flex-[0.35] text-3xl font-bold'>
         EQ beats IQ
 

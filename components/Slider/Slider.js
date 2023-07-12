@@ -21,7 +21,7 @@ const Slider = () => {
   }
 
   return (
-    <section className=' flex flex-col items-start justify-start mt-24 font-[Montserrat] w-full gap-2  '>
+    <section className=' flex flex-col items-start justify-start mt-32 font-[Montserrat] w-full gap-2  '>
       <h1 className='md:px-40 flex text-4xl font-bold'>Does this sound familiar...</h1>
       <div className='flex overflow-x-scroll no-scrollbar py-8 w-full px-4'>
         {
