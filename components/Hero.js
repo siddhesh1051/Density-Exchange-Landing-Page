@@ -77,57 +77,57 @@ const Hero = () => {
                 <div className='flex flex-1 justify-center items-center relative px-4 py-2'>
 
                     <div className='absolute h-[450px] w-[450px] rounded-full  border-4 border-dashed  border-[#f6f6fd] flex justify-center items-center z-0 '>
-                   
+
                         <div className='absolute h-72 w-72  rounded-full bg-[#DED6F8] '>
-                                
+
                         </div>
                     </div>
                     <div className='z-10 absolute top-0'>
-                    <Image
-                                    src={Planet}
-                                    width={75}
-                                    height={75}
-                                    alt="planet"
-                                />
-                  
+                        <Image
+                            src={Planet}
+                            width={75}
+                            height={75}
+                            alt="planet"
+                        />
+
                     </div>
                     <div className='z-10 absolute left-0 -rotate-45'>
-                    <Image
-                                    src={Planet}
-                                    width={75}
-                                    height={75}
-                                    alt="planet"
-                                />
-                  
+                        <Image
+                            src={Planet}
+                            width={75}
+                            height={75}
+                            alt="planet"
+                        />
+
                     </div>
                     <div className='z-10 absolute bottom-0 rotate-45'>
-                    <Image
-                                    src={Planet}
-                                    width={75}
-                                    height={75}
-                                    alt="planet"
-                                />
-                  
+                        <Image
+                            src={Planet}
+                            width={75}
+                            height={75}
+                            alt="planet"
+                        />
+
                     </div>
                     <div className='z-10 absolute right-0 -rotate-45'>
-                    <Image
-                                    src={Planet}
-                                    width={75}
-                                    height={75}
-                                    alt="planet"
-                                />
-                  
+                        <Image
+                            src={Planet}
+                            width={75}
+                            height={75}
+                            alt="planet"
+                        />
+
                     </div>
-                    
+
                     <div className='flex justify-center items-center z-10'>
-                    <Image
-                                    src={Mobile}
-                                    width={300}
-                                    height={300}
-                                    alt="mobile"
-                                />
-                    
-                        
+                        <Image
+                            src={Mobile}
+                            width={300}
+                            height={300}
+                            alt="mobile"
+                        />
+
+
                     </div>
                 </div>
 

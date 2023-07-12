@@ -4,12 +4,13 @@ import Logo from '../assets/logo.png'
 const Nav = () => {
   return (
     <>
-      <nav className='md:px-64 flex justify-between items-center h-16 w-full pt-2' >
+      <nav className='md:px-64 flex justify-between items-center h-16 w-full pt-2 ' >
       <Image
       src={Logo}
       width={55}
       height={55}
       alt="Logo"
+      style={{cursor:'pointer'}}
     />
 
     <div className='flex justify-between items-center'>
@@ -20,7 +21,7 @@ const Nav = () => {
 
     </div>
 
-    <d className='flex justify-center items-center bg-[#212020] rounded-[50px] text-[#e6e4e4] px-5 py-3 font-medium'>
+    <d className='flex justify-center items-center bg-[#212020] rounded-[50px] text-[#e6e4e4] px-5 py-3 font-medium cursor-pointer'>
       Download app
     </d>
 
