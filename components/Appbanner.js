@@ -16,8 +16,8 @@ const Appbanner = () => {
 
                         <Image
                             src={Boo_Circle}
-                            width={300}
-                            height={300}
+                            width={250}
+                            height={250}
                             alt="hero"
                             className=' border-spacing-8 border-[16px] rounded-full bg-[#FBE8DC] border-[#f0eeee] mt-4'
                         />
