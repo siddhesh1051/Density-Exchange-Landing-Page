@@ -7,7 +7,7 @@ const Vacancy = () => {
             </div>
             <div className='flex justify-center items-center gap-4'>
                 <div className='flex flex-[0.33] flex-col bg-[#FEFBEC] rounded-xl px-6 py-8'>
-                    <h1 className='text-lg font-bold text-black '>Senior Engineer</h1>
+                    <h1 className='text-lg font-bold text-black mb-3'>Senior Engineer</h1>
                     <ul className="list-disc">
                         <li className="ml-4 text-sm font-semibold text-[#535353]">Full Time Position</li>
                         <li className="ml-4 text-sm font-semibold text-[#535353]">Berlin</li>
@@ -15,7 +15,7 @@ const Vacancy = () => {
                     </ul>
                 </div>
                 <div className='flex flex-[0.33] flex-col bg-[#FEFBEC] rounded-xl px-6 py-8'>
-                    <h1 className='text-lg font-bold text-black '>Senior Designer</h1>
+                    <h1 className='text-lg font-bold text-black mb-3'>Senior Designer</h1>
                     <ul className="list-disc">
                         <li className="ml-4 text-sm font-semibold text-[#535353]">Full Time Position</li>
                         <li className="ml-4 text-sm font-semibold text-[#535353]">Remote</li>
@@ -23,7 +23,7 @@ const Vacancy = () => {
                     </ul>
                 </div>
                 <div className='flex flex-[0.33] flex-col bg-[#FEFBEC] rounded-xl px-6 py-8'>
-                    <h1 className='text-lg font-bold text-black '>Superstar Intern</h1>
+                    <h1 className='text-lg font-bold text-black mb-3'>Superstar Intern</h1>
                     <ul className="list-disc">
                         <li className="ml-4 text-sm font-semibold text-[#535353]">Part Time Position</li>
                         <li className="ml-4 text-sm font-semibold text-[#535353]">England</li>

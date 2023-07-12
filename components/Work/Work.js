@@ -68,7 +68,7 @@ const Work = () => {
                                 src={Boo}
                                 width={100}
                                 height={100}
-                                alt="hero"
+                                alt="boo"
                                 className='-ml-5'
                             />
                             <h2 className='text-start text-[#363636] text-xl font-semibold'>About</h2>

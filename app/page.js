@@ -9,6 +9,7 @@ import Procedure from '@/components/Procedure'
 import Sign from '@/components/Sign'
 import Work from '@/components/Work/Work'
 import Vacancy from '@/components/Vacancy'
+import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Sign/>
       <Work/>
       <Vacancy/>
+      <Footer/>
     
     </main>
   )

@@ -3,6 +3,7 @@ import Star from '../assets/star.png'
 import Mobile from '../assets/mobile.png'
 import Boo from '../assets/boo.svg'
 import Planet from '../assets/Planet.png'
+import AppleStore from './AppleStore'
 import Image from 'next/image'
 
 
@@ -18,20 +19,7 @@ const Hero = () => {
                     <h1 className="text-6xl font-bold text-[#151515] mt-3">Master your life by mastering emotions  </h1>
                     <div className='flex items-center mt-10'>
 
-                        <div className='flex justify-center items-center w-40 h-12 bg-black rounded-md '>
-                            <Image
-                                src={Apple}
-                                width={35}
-                                height={35}
-                                alt="Logo"
-                            />
-                            <div className='flex flex-col flex-[0.9] text-[#cbcbcb] '>
-                                <p className='text-xs font-medium text-center'>Download on the</p>
-                                <p className='text-lg text-center font-semibold'>App Store</p>
-
-                            </div>
-
-                        </div>
+                        <AppleStore />
 
                         <div className='flex flex-col justify-center items-start w-40 h-12 rounded-md ml-5 gap-1'>
                             <div className="flex justify-start">
