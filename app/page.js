@@ -8,6 +8,7 @@ import Bebest from '@/components/Bebest'
 import Procedure from '@/components/Procedure'
 import Sign from '@/components/Sign'
 import Work from '@/components/Work/Work'
+import Vacancy from '@/components/Vacancy'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <Procedure/>
       <Sign/>
       <Work/>
+      <Vacancy/>
     
     </main>
   )
