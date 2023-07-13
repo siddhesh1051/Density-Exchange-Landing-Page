@@ -1,9 +1,18 @@
 import Image from 'next/image'
+import { motion } from 'framer-motion';
 
 const Nav = () => {
   return (
     <>
-      <nav className='md:px-64 flex justify-between items-center h-16 w-full pt-2 ' >
+      <motion.nav 
+        initial={{ y: -20, opacity: 0 }}
+        transition={{
+          delay: 0.1,
+          duration: 0.3
+        }}
+        whileInView={{ y: 0, opacity: 1 }}
+        viewport={{once:true}}
+        className='md:px-64 flex justify-between items-center h-16 w-full pt-2 ' >
       <Image
       src='/assets/logo.png'
       width={55}
@@ -20,13 +29,21 @@ const Nav = () => {
 
     </div>
 
-    <d className='flex justify-center items-center bg-[#212020] rounded-[50px] text-[#e6e4e4] px-5 py-3 font-medium cursor-pointer'>
+    <motion.div 
+    initial={{ scale:0, opacity: 0 }}
+    transition={{
+      delay: 0.15,
+      duration: 0.4
+    }}
+    whileInView={{ scale: 1,opacity: 1 }}
+    viewport={{once:true}}
+    className='flex justify-center items-center bg-[#212020] rounded-[50px] text-[#e6e4e4] px-5 py-3 font-medium cursor-pointer'>
       Download app
-    </d>
+    </motion.div>
 
     
 
-      </nav>
+      </motion.nav>
     </>
   )
 }

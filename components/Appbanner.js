@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { motion } from 'framer-motion';
 
 
 
@@ -7,12 +8,44 @@ const Appbanner = () => {
         <section className="md:px-40 flex justify-center items-center mt-28 font-[Montserrat]">
             <div className="bg-[#FEF6F0] w-[85%] h-full md:h-[70vh] rounded-3xl flex p-8 ">
                 <div className="flex flex-col justify-center items-start flex-[0.6] px-5 py-2 gap-2">
-                    <p className="text-xl text-[#212121] font-semibold ml-1">Built out of frustration</p>
-                    <h1 className="text-5xl font-bold text-[#151515] mt-3">Meet the ahead app  </h1>
+                    <motion.p 
+                    initial={{ x: -200, scale: 0,opacity:0 }}
+                    transition={{
+                      delay: 0.2,
+                      duration: 0.5,
+                      type: "spring",
+                      stiffness: 50
+          
+                    }}
+                    whileInView={{ x: 0, scale: 1,opacity:1 }}
+                    viewport={{ once: true }}
+                    className="text-xl text-[#212121] font-semibold ml-1">Built out of frustration</motion.p>
+                    <motion.h1 
+                    initial={{ x: -200, scale: 0,opacity:0 }}
+                    transition={{
+                      delay: 0.4,
+                      duration: 0.5,
+                      type: "spring",
+                      stiffness: 50
+          
+                    }}
+                    whileInView={{ x: 0, scale: 1,opacity:1 }}
+                    viewport={{ once: true }}
+                    className="text-5xl font-bold text-[#151515] mt-3">Meet the ahead app  </motion.h1>
                     {/* <div clasName='relative z-10'> */}
 
 
-
+                        <motion.div
+                        initial={{  rotate:-90,scale: 0 }}
+                        transition={{
+                          delay: 0.2,
+                          duration: 0.5,
+                          type: "spring",
+                          stiffness: 100
+              
+                        }}
+                        whileInView={{ rotate:0,scale: 1 }}
+                        viewport={{ once: true }}>
                         <Image
                             src='/assets/boo.svg'
                             width={250}
@@ -20,6 +53,7 @@ const Appbanner = () => {
                             alt="hero"
                             className=' border-spacing-8 border-[16px] rounded-full bg-[#FBE8DC] border-[#f0eeee] mt-4'
                         />
+                        </motion.div>
 
                           
                         
@@ -32,7 +66,18 @@ const Appbanner = () => {
 
 
                 </div>
-                <div className='flex flex-col justify-center items-center z-10 flex-[0.4] text-[#626262] font-semibold relative '>
+                <motion.div 
+                initial={{ x: -200, scale: 0 }}
+                transition={{
+                  delay: 0.2,
+                  duration: 0.5,
+                  type: "spring",
+                  stiffness: 50
+      
+                }}
+                whileInView={{ x: 0, scale: 1 }}
+                viewport={{ once: true }}
+                className='flex flex-col justify-center items-center z-10 flex-[0.4] text-[#626262] font-semibold relative '>
                     <p className='mb-3  '>A personalized pocket coach that provides bite-sized,science driven tools to boost emotional intelligence.</p>
                     <p>Think of it as pocket cheerleader towards a better,more fulflling.</p>
                     <Image
@@ -44,7 +89,7 @@ const Appbanner = () => {
                             />
 
 
-                </div>
+                </motion.div>
             </div>
         </section>
     )

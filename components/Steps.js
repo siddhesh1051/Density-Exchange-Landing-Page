@@ -3,21 +3,59 @@
 import Image from "next/image"
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
+import { motion } from 'framer-motion';
 
 const Steps = () => {
   return (
     <section className="md:px-40 flex flex-col mt-28 justify-center items-start font-[Montserrat] w-[80%]">
-      <p className='text-md font-medium text-[#535353] '>Wrong with self-improvement & how we're fixing it.</p>
+      <motion.p 
+       initial={{ x: -200, scale: 0,opacity:0 }}
+       transition={{
+         delay: 0.5,
+         duration: 0.8,
+         type: "spring",
+         stiffness: 50
+
+       }}
+       whileInView={{ x: 0, scale: 1,opacity:1 }}
+       viewport={{ once: true }}
+       className='text-md font-medium text-[#535353] '>Wrong with self-improvement & how we're fixing it.</motion.p>
       <div className='flex'>
 
-        <h1 className='text-4xl font-bold  text-black mt-4 inline'>Self Improvement. Ugh.</h1>
+        <motion.h1 
+         initial={{ x: -200, scale: 0,opacity:0 }}
+         transition={{
+           delay: 0.7,
+           duration: 0.8,
+           type: "spring",
+           stiffness: 50
+
+         }}
+         whileInView={{ x: 0, scale: 1,opacity:1 }}
+         viewport={{ once: true }}
+         className='text-4xl font-bold  text-black mt-4 inline'>Self Improvement. Ugh.</motion.h1>
+
+
+         <motion.div
+          initial={{ rotate: -90, x: 400, y: 20 }}
+          whileInView={{
+            rotate: 0,
+            x: 0,
+            y: 0,
+            
+  
+          }}
+          transition= {{ duration: 1.5,delay:0.2 }}
+          viewport={{ once: true }}
+         >
         <Image
           src='/assets/boo.svg'
           width={80}
           height={80}
           alt="boo"
-          className='inline rounded-full rotate-[8deg] opacity-90'
+          className='inline rounded-full rotate-[25deg] opacity-90'
         />
+         </motion.div>
 
       </div>
 

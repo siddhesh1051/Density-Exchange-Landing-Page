@@ -1,9 +1,18 @@
 import Image from 'next/image'
+import { motion } from 'framer-motion';
 
 
 const AppleStore = () => {
   return (
-    <div className='flex justify-center items-center w-40 h-12 bg-black rounded-md '>
+    <motion.div 
+    initial={{ scale: 0, opacity: 0 }}
+                            transition={{
+                              delay: 0.6,
+                              duration: 0.6
+                            }}
+                            whileInView={{ scale: 1, opacity: 1 }}
+                            viewport={{once:true}}
+                            className='flex justify-center items-center w-40 h-12 bg-black rounded-md '>
     <Image
         src='/assets/apple.svg'
         width={35}
@@ -16,7 +25,7 @@ const AppleStore = () => {
 
     </div>
 
-</div>
+</motion.div>
   )
 }
 
