@@ -1,4 +1,3 @@
-// import Boo from '../../public/assets/boo.svg'
 import AboutCard from './AboutCard'
 import Image from 'next/image'
 

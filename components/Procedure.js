@@ -1,7 +1,6 @@
 import '../app/globals.css'
 import Image from 'next/image'
-// import Sun from '../public/assets/sun.png'
-// import Path from '../public/assets/path.png'
+
 const Procedure = () => {
   return (
     <section className='md:px-24 flex mt-40 font-[Montserrat]'>

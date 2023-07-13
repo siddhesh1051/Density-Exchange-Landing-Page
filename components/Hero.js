@@ -1,6 +1,4 @@
-// import Star from '../public/assets/star.png'
-// import Mobile from '../public/assets/mobile.png'
-// import Planet from '../public/assets/Planet.png'
+
 import AppleStore from './AppleStore'
 import Image from 'next/image'
 

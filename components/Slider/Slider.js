@@ -1,5 +1,4 @@
 import Card from './Card'
-// import Boo from '../../public/assets/boo.svg'
 import Image from 'next/image'
 
 
