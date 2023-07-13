@@ -2,7 +2,7 @@ Here's a demo of dribble design implemented with framer motion animations
 <a href='https://dribbble.com/shots/19807069-Ahead-app-redesign-concept'>Design </a>
 </br>
 <a href="https://drive.google.com/drive/folders/15i0BzVhkzErBj0nsEsv3bgPIo8o_mdXl?usp=sharing">Density.Exchange-Assignment demo</a>
-https://github.com/siddhesh1051/Density-Exchange-Landing-Page/assets/91652255/e2a9d100-f04c-4225-a334-da224f25c1c0
+<br/>
 ![Home](https://github.com/siddhesh1051/Density-Exchange-Landing-Page/assets/91652255/dfcdc6ae-9910-4407-9394-14cb03033466)
 ![Carousel](https://github.com/siddhesh1051/Density-Exchange-Landing-Page/assets/91652255/92c9ddfa-f7a9-4126-8204-06eb1ea9398c)
 
