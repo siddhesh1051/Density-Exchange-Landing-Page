@@ -37,7 +37,7 @@ const Nav = () => {
     }}
     whileInView={{ scale: 1,opacity: 1 }}
     viewport={{once:true}}
-    className='flex justify-center items-center bg-[#212020] shadow-static hover:shadow-hover rounded-[50px] text-[#e6e4e4] px-5 py-3 font-medium cursor-pointer'>
+    className='flex justify-center items-center bg-[#212020] duration-300 rounded-[50px] text-[#e6e4e4] px-5 py-3 font-medium cursor-pointer shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] hover:shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px]'>
       Download app
     </motion.button>
 

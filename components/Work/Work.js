@@ -135,7 +135,7 @@ const Work = () => {
                         viewport={{ once: true }}
                         className="md:text-4xl text-3xl text-[#6B4DEE] md:text-end text-center font-bold">ahead</motion.h1>
                     </div>
-                    <div className="flex md:flex-col flex-row md:overflow-y-scroll  overflow-x-scroll py-8 w-full px-4 mt-4">
+                    <div className="flex md:flex-col flex-row md:overflow-y-auto  overflow-x-auto py-8 w-full px-4 mt-4">
                         {
                             aboutcardData.map((item, index) => (
                                 <AboutCard heading={item.heading} info={item.info} key={index} />

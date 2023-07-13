@@ -46,7 +46,7 @@ const Vacancy = () => {
                     </ul>
                     <div className='flex justify-start items-center'>
 
-                    <button className='bg-black text-white font-semibold text-sm rounded-[50px] py-3 px-4 mt-6'>See Details</button>
+                    <button className='bg-black text-white font-semibold text-sm rounded-[50px] py-3 px-4 mt-6 duration-300 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>See Details</button>
                     </div>
                 </motion.div>
                 <motion.div 
@@ -69,7 +69,7 @@ const Vacancy = () => {
                     </ul>
                     <div className='flex justify-start items-center'>
 
-                    <button className='bg-black text-white font-semibold text-sm rounded-[50px] py-3 px-4 mt-6'>See Details</button>
+                    <button className='bg-black text-white font-semibold text-sm rounded-[50px] py-3 px-4 mt-6 duration-300 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>See Details</button>
                     </div>
                 </motion.div>
                 <motion.div 
@@ -92,7 +92,7 @@ const Vacancy = () => {
                     </ul>
                     <div className='flex justify-start items-center'>
 
-                    <button className='bg-black text-white font-semibold text-sm rounded-[50px] py-3 px-4 mt-6'>See Details</button>
+                    <button className='bg-black text-white font-semibold text-sm rounded-[50px] py-3 px-4 mt-6 duration-300 shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] hover:shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]'>See Details</button>
                     </div>
                 </motion.div>
             </div>
