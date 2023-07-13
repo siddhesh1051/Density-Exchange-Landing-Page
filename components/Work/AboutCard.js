@@ -1,9 +1,9 @@
 
 const AboutCard = ({heading,info}) => {
   return (
-    <div className='flex flex-col p-4 w-96 h-48 bg-white rounded-xl gap-4 flex-shrink-0 mb-6 hover:bg-[#fcfbff] hover:text-white duration-300'>
-      <h2 className='text-black text-lg font-bold  '>{heading}</h2>
-      <p className='text-[#363636] text-sm font-semibold  '>{info}</p>
+    <div className='flex flex-col p-4 md:w-96 w-48 md:h-72 bg-white rounded-xl gap-4 flex-shrink-0 md:mb-6 mr-6 hover:bg-[#fcfbff] hover:text-white duration-300 drop-shadow-xl'>
+      <h2 className='text-black md:text-lg text-sm font-bold  '>{heading}</h2>
+      <p className='text-[#363636] md:text-sm text-xs font-semibold  '>{info}</p>
       
     </div>
   )

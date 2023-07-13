@@ -50,7 +50,7 @@ const Hero = () => {
                         }}
                         whileInView={{ scale: 1, opacity: 1 }}
                         viewport={{once:true}}
-                        className='flex flex-col justify-center items-start w-40 h-12 rounded-md ml-5 gap-1'>
+                        className='flex flex-col justify-center items-start md:w-40 w-28 h-12 rounded-md ml-5 gap-1'>
                             <div 
                             className="flex justify-start">
 
@@ -94,11 +94,12 @@ const Hero = () => {
 
                 <div className='flex flex-1 justify-center items-center relative px-4 py-2'>
 
-                    <div className='absolute hidden md:flex  h-[450px] w-[450px] rounded-full  border-4 border-dashed  border-[#f6f6fd] flex justify-center items-center z-0 '>
+                    <div className='absolute hidden md:flex  h-[450px] w-[450px] rounded-full  border-4 border-dashed  border-[#f6f6fd]  justify-center items-center z-0 '>
 
                         <div className='absolute h-72 w-72  rounded-full bg-[#DED6F8] '>
 
                         </div>
+                       
                     </div>
                     <motion.div 
                     initial={{ rotate: 0  }}
@@ -183,7 +184,7 @@ const Hero = () => {
                             width={300}
                             height={300}
                             alt="mobile"
-                            className='md:scale-1 scale-[0.7]'
+                            className='md:scale-100 scale-75'
                         />
 
 

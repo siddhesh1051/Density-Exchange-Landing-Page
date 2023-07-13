@@ -8,7 +8,7 @@ const Sign = () => {
       initial={{ y: 40, opacity: 0 }}
       transition={{
         delay: 0.2,
-        duration: 0.6
+        duration: 0.8
       }}
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{once:true}}
