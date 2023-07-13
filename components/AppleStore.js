@@ -1,4 +1,4 @@
-import Apple from '../assets/apple.svg'
+import Apple from '../public/assets/apple.svg'
 import Image from 'next/image'
 
 

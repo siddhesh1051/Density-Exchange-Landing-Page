@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Logo from '../assets/logo.png'
-import Location from '../assets/location.svg'
-import Mail from '../assets/mail.svg'
+import Logo from '../public/assets/logo.png'
+import Location from '../public/assets/location.svg'
+import Mail from '../public/assets/mail.svg'
 import AppleStore from './AppleStore'
 
 

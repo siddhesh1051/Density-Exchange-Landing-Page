@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import SignSvg from '../assets/Sign.svg'
+import SignSvg from '../public/assets/Sign.svg'
 
 const Sign = () => {
   return (

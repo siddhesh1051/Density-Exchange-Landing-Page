@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import Boo_Circle from '../assets/boo.svg'
-import Right_emoji from '../assets/emote-right.png'
+import Boo_Circle from '../public/assets/boo.svg'
+import Right_emoji from '../public/assets/emote-right.png'
 
 
 const Appbanner = () => {

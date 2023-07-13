@@ -1,4 +1,4 @@
-import Boo from '../../assets/boo.svg'
+import Boo from '../../public/assets/boo.svg'
 import AboutCard from './AboutCard'
 import Image from 'next/image'
 
