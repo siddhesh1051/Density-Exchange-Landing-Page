@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 const Section2 = () => {
   return (
-    <section className='md:px-40 flex items-start justify-between font-[Montserrat]  mt-32 h-28 w-[90%]'>
+    <section className='md:px-40 flex md:flex-row flex-col items-start justify-between font-[Montserrat]  mt-32 w-[90%] gap-8 md:gap-0'>
       <motion.div 
       initial={{ y: 20, opacity: 0 }}
       transition={{
@@ -14,7 +14,7 @@ const Section2 = () => {
         EQ beats IQ
 
       </motion.div>
-      <div className='flex justify-between items-start flex-[0.65] gap-2 font-semibold'>
+      <div className='flex justify-between items-start flex-[0.65] gap-4 md:gap-2 font-semibold md:px-0 px-2'>
             <motion.div 
             initial={{ y: 20, opacity: 0 }}
             transition={{

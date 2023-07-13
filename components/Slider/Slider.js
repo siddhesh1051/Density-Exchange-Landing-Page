@@ -39,7 +39,7 @@ const Slider = () => {
           }}
           whileInView={{ x: 0, scale: 1 }}
           viewport={{ once: true }}
-          className='md:pl-40 flex text-4xl font-bold '>Does this sound familiar...</motion.h1>
+          className='md:pl-40 pl-2 flex md:text-4xl text-xl font-bold '>Does this sound familiar...</motion.h1>
         <motion.div
         initial={{ rotate: -90, x: 400, y: 20 }}
         whileInView={{
@@ -58,7 +58,7 @@ const Slider = () => {
             width={100}
             height={100}
             alt="boo"
-            className=' rounded-full -rotate-[30deg] opacity-80'
+            className=' rounded-full -rotate-[30deg] opacity-80 hidden md:flex'
           />
         </motion.div>
       </div>

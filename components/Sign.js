@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Sign = () => {
   return (
-    <section className='md:px-24 flex justify-center items-center mt-40 font-[Montserrat] '>
+    <section className='md:px-24 px-4 flex justify-center items-center mt-40 font-[Montserrat] '>
       <motion.div 
       initial={{ y: 40, opacity: 0 }}
       transition={{

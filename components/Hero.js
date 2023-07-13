@@ -9,8 +9,7 @@ const Hero = () => {
     return (
         <section 
         
-          className="md:px-40 flex justify-center items-center mt-10 font-[Montserrat] ">
-
+          className="md:px-40 px-4 flex justify-center items-center mt-10 font-[Montserrat] ">
             <motion.div 
             initial={{ y: 40, opacity: 0 }}
             transition={{
@@ -19,7 +18,7 @@ const Hero = () => {
             }}
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{once:true}}
-            className="bg-[#ECE8FB] w-[90%] h-full md:h-[80vh] rounded-3xl flex p-2 ">
+            className="bg-[#ECE8FB] w-[90%]  md:h-[80vh] rounded-3xl flex flex-col md:flex-row p-2 gap-8 md:gap-0 ">
 
                 <div className="flex flex-col justify-center items-start flex-1 px-5 py-2">
                     <motion.p 
@@ -38,7 +37,7 @@ const Hero = () => {
                       duration: 0.6
                     }}
                     whileInView={{ x: 0, opacity: 1 }}
-                    viewport={{once:true}}className="text-6xl font-bold text-[#151515] mt-3">Master your life by mastering emotions  </motion.h1>
+                    viewport={{once:true}}className="md:text-6xl text-3xl font-bold text-[#151515] mt-3">Master your life by mastering emotions  </motion.h1>
                     <div className='flex items-center mt-10'>
 
                         <AppleStore />
@@ -95,7 +94,7 @@ const Hero = () => {
 
                 <div className='flex flex-1 justify-center items-center relative px-4 py-2'>
 
-                    <div className='absolute h-[450px] w-[450px] rounded-full  border-4 border-dashed  border-[#f6f6fd] flex justify-center items-center z-0 '>
+                    <div className='absolute hidden md:flex  h-[450px] w-[450px] rounded-full  border-4 border-dashed  border-[#f6f6fd] flex justify-center items-center z-0 '>
 
                         <div className='absolute h-72 w-72  rounded-full bg-[#DED6F8] '>
 
@@ -178,12 +177,13 @@ const Hero = () => {
                     }}
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{once:true}}
-                    className='flex justify-center items-center z-10'>
+                    className='flex justify-center items-center z-10 '>
                         <Image
                             src='/assets/mobile.png'
                             width={300}
                             height={300}
                             alt="mobile"
+                            className='md:scale-1 scale-[0.7]'
                         />
 
 

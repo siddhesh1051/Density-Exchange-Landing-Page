@@ -17,7 +17,7 @@ const Footer = () => {
     whileInView={{ y: 0,opacity:1 }}
     viewport={{ once: true }}
     className="mt-24  border-t-4 w-[99vw] flex justify-center items-center " >
-      <div className="md:px-40 flex  mt-24 font-[Montserrat] flex-col w-[80%] justify-center items-center gap-4"> 
+      <div className="md:px-40 flex  md:mt-24 mt-12 font-[Montserrat] flex-col w-[80%] justify-center items-center gap-4"> 
       <Image
       src='/assets/logo.png'
       width={55}
@@ -27,8 +27,8 @@ const Footer = () => {
     />
     <h1 className='font-bold text-3xl text-[#6B4DEE] '>ahead</h1>
 
-    <div className='flex justify-center items-center my-4'>
-    <div className='flex text-sm font-semibold items-center cursor-pointer'>
+    <div className='flex justify-center items-center my-4 flex-col md:flex-row'>
+    <div className='flex  text-sm font-semibold items-center justify-center cursor-pointer'>
     <Image
       src='/assets/location.svg'
       width={30}
@@ -38,7 +38,7 @@ const Footer = () => {
     />
         Augustraβe 26, 10117 Berlin
         </div>
-        <div className='flex text-sm font-semibold items-center ml-12 cursor-pointer'>
+        <div className='flex text-sm font-semibold items-center justify-center ml-12 cursor-pointer'>
         <Image
       src='/assets/mail.svg'
       width={30}

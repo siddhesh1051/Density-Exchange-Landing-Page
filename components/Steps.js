@@ -7,9 +7,9 @@ import { motion } from 'framer-motion';
 
 const Steps = () => {
   return (
-    <section className="md:px-40 flex flex-col mt-28 justify-center items-start font-[Montserrat] w-[80%]">
+    <section className="md:px-40 flex flex-col md:mt-28 mt-12 justify-center items-start font-[Montserrat] w-[80%]">
       <motion.p 
-       initial={{ x: -200, scale: 0,opacity:0 }}
+       initial={{ x: '-200', scale: 0,opacity:0 }}
        transition={{
          delay: 0.5,
          duration: 0.8,
@@ -19,11 +19,11 @@ const Steps = () => {
        }}
        whileInView={{ x: 0, scale: 1,opacity:1 }}
        viewport={{ once: true }}
-       className='text-md font-medium text-[#535353] '>Wrong with self-improvement & how we're fixing it.</motion.p>
+       className='md:text-md text-sm font-medium text-[#535353] '>Wrong with self-improvement & how we're fixing it.</motion.p>
       <div className='flex'>
 
         <motion.h1 
-         initial={{ x: -200, scale: 0,opacity:0 }}
+         initial={{ x: '-200', scale: 0,opacity:0 }}
          transition={{
            delay: 0.7,
            duration: 0.8,
@@ -33,7 +33,7 @@ const Steps = () => {
          }}
          whileInView={{ x: 0, scale: 1,opacity:1 }}
          viewport={{ once: true }}
-         className='text-4xl font-bold  text-black mt-4 inline'>Self Improvement. Ugh.</motion.h1>
+         className='md:text-4xl text-2xl font-bold  text-black mt-4 inline mb-4 md:mb-1'>Self Improvement. Ugh.</motion.h1>
 
 
          <motion.div
@@ -53,7 +53,7 @@ const Steps = () => {
           width={80}
           height={80}
           alt="boo"
-          className='inline rounded-full rotate-[25deg] opacity-90'
+          className='inline rounded-full rotate-[25deg] opacity-90 hidden md:flex'
         />
          </motion.div>
 

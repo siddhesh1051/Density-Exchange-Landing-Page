@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Procedure = () => {
   return (
-    <section className='md:px-24 flex mt-40 font-[Montserrat]'>
+    <section className='md:px-4 flex mt-40 font-[Montserrat]'>
       <motion.div 
       initial={{ y: 40, opacity: 0 }}
       transition={{
@@ -13,7 +13,7 @@ const Procedure = () => {
       }}
       whileInView={{ y: 0, opacity: 1 }}
       viewport={{once:true}}
-      className="bg-[#D9F2FF] w-full h-full  rounded-3xl flex flex-col px-28 py-16 ">
+      className="bg-[#D9F2FF] w-full h-full  rounded-3xl flex flex-col px-16 py-16 ">
         <motion.div 
         initial={{ y: 20, opacity: 0 }}
         transition={{

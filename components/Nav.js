@@ -12,7 +12,7 @@ const Nav = () => {
         }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{once:true}}
-        className='md:px-64 flex justify-between items-center h-16 w-full pt-2 ' >
+        className='md:px-56 px-6 flex justify-between items-center  w-full pt-2 ' >
       <Image
       src='/assets/logo.png'
       width={55}
@@ -21,7 +21,7 @@ const Nav = () => {
       style={{cursor:'pointer'}}
     />
 
-    <div className='flex justify-between items-center'>
+    <div className='md:flex justify-center items-center hidden'>
       <a className='mr-10 font-semibold text-[#5e5e5e]' href="./">Emotions</a>
       <a className='mr-10 font-semibold text-[#5e5e5e]' href="./">Manifesto</a>
       <a className='mr-10 font-semibold text-[#5e5e5e]' href="./">Self-Awareness Test</a>
@@ -29,7 +29,7 @@ const Nav = () => {
 
     </div>
 
-    <motion.div 
+    <motion.button 
     initial={{ scale:0, opacity: 0 }}
     transition={{
       delay: 0.15,
@@ -39,7 +39,7 @@ const Nav = () => {
     viewport={{once:true}}
     className='flex justify-center items-center bg-[#212020] rounded-[50px] text-[#e6e4e4] px-5 py-3 font-medium cursor-pointer'>
       Download app
-    </motion.div>
+    </motion.button>
 
     
 
