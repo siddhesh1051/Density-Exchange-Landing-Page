@@ -4,7 +4,7 @@ import Image from 'next/image'
 const Procedure = () => {
   return (
     <section className='md:px-24 flex mt-40 font-[Montserrat]'>
-      <div className="bg-[#EEF8FE] w-full h-full  rounded-3xl flex flex-col px-28 py-16 ">
+      <div className="bg-[#D9F2FF] w-full h-full  rounded-3xl flex flex-col px-28 py-16 ">
         <div className="flex flex-col justify-center items-center">
           <p className='font-semibold text-sm text-[#53553]'>Let your friends, family, and co-workers rate your skills.</p>
           <h1 className='font-bold text-3xl text-black mt-3'>Ever Wondered what others think of you?</h1>
