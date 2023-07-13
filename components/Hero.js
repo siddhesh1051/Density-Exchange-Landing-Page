@@ -7,17 +7,19 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
     return (
-        <motion.section 
-        initial={{ y: 40, opacity: 0 }}
-          transition={{
-            delay: 0.3,
-            duration: 0.6
-          }}
-          whileInView={{ y: 0, opacity: 1 }}
-          viewport={{once:true}}
+        <section 
+        
           className="md:px-40 flex justify-center items-center mt-10 font-[Montserrat] ">
 
-            <div className="bg-[#ECE8FB] w-[90%] h-full md:h-[80vh] rounded-3xl flex p-2 ">
+            <motion.div 
+            initial={{ y: 40, opacity: 0 }}
+            transition={{
+              delay: 0.3,
+              duration: 0.6
+            }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{once:true}}
+            className="bg-[#ECE8FB] w-[90%] h-full md:h-[80vh] rounded-3xl flex p-2 ">
 
                 <div className="flex flex-col justify-center items-start flex-1 px-5 py-2">
                     <motion.p 
@@ -190,11 +192,11 @@ const Hero = () => {
                 </div>
 
 
-            </div>
+            </motion.div>
 
 
 
-        </motion.section>
+        </section>
     )
 }
 

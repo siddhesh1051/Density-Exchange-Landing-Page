@@ -1,11 +1,22 @@
 import Image from 'next/image'
-
+import { motion } from 'framer-motion';
 import AppleStore from './AppleStore'
 
 
 const Footer = () => {
   return (
-    <section className="mt-24  border-t-4 w-[99vw] flex justify-center items-center " >
+    <motion.section 
+    initial={{ y: 40,opacity:0 }}
+    transition={{
+      delay: 0.5,
+      duration: 0.6,
+      type: "spring",
+      stiffness: 50
+
+    }}
+    whileInView={{ y: 0,opacity:1 }}
+    viewport={{ once: true }}
+    className="mt-24  border-t-4 w-[99vw] flex justify-center items-center " >
       <div className="md:px-40 flex  mt-24 font-[Montserrat] flex-col w-[80%] justify-center items-center gap-4"> 
       <Image
       src='/assets/logo.png'
@@ -43,7 +54,7 @@ const Footer = () => {
     <p className='flex text-sm font-semibold my-4 text-[#535353]'>&copy; 2022 Ahead app.All rights reserved</p>
       </div>
 
-    </section>
+    </motion.section>
   )
 }
 

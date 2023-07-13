@@ -6,7 +6,15 @@ import { motion } from 'framer-motion';
 const Appbanner = () => {
     return (
         <section className="md:px-40 flex justify-center items-center mt-28 font-[Montserrat]">
-            <div className="bg-[#FEF6F0] w-[85%] h-full md:h-[70vh] rounded-3xl flex p-8 ">
+            <motion.div 
+            initial={{ y: 40, opacity: 0 }}
+            transition={{
+              delay: 0,
+              duration: 0.6
+            }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{once:true}}
+            className="bg-[#FEF6F0] w-[85%] h-full md:h-[70vh] rounded-3xl flex p-8 ">
                 <div className="flex flex-col justify-center items-start flex-[0.6] px-5 py-2 gap-2">
                     <motion.p 
                     initial={{ x: -200, scale: 0,opacity:0 }}
@@ -90,7 +98,7 @@ const Appbanner = () => {
 
 
                 </motion.div>
-            </div>
+            </motion.div>
         </section>
     )
 }

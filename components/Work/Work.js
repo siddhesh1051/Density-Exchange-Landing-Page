@@ -1,5 +1,6 @@
 import AboutCard from './AboutCard'
 import Image from 'next/image'
+import { motion } from 'framer-motion';
 
 
 
@@ -56,12 +57,40 @@ const Work = () => {
 
     return (
         <section className="md:px-40 flex justify-center items-center mt-36 font-[Montserrat]">
-            <div className="bg-[#F3F1FF] w-[90%] h-full md:h-[90vh] rounded-3xl flex px-12 pt-20  pb-8 gap-12">
+            <motion.div 
+            initial={{ y: 40, opacity: 0 }}
+            transition={{
+              delay: 0.2,
+              duration: 0.6
+            }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{once:true}}
+            className="bg-[#F3F1FF] w-[90%] h-full md:h-[90vh] rounded-3xl flex px-12 pt-20  pb-8 gap-12">
                 <div className="flex flex-1 flex-col  ">
-                    <div className="flex">
+                    <motion.div 
+                    initial={{ x: -200, scale: 0,opacity:0 }}
+                    transition={{
+                      delay: 0.2,
+                      duration: 0.5,
+                      type: "spring",
+                      stiffness: 50
+          
+                    }}
+                    whileInView={{ x: 0, scale: 1,opacity:1 }}
+                    viewport={{ once: true }}
+                    className="flex">
                         <h1 className="text-4xl text-black font-bold">Work with us</h1>
-                    </div>
-                    <div className="flex flex-col bg-white rounded-3xl gap-1 h-[60vh] mt-6">
+                    </motion.div>
+                    <motion.div 
+                    initial={{ y: 40, opacity: 0 }}
+                    transition={{
+                      delay: 0.6,
+                      duration: 0.8
+                    }}
+                    whileInView={{ y: 0, opacity: 1 }}
+                    viewport={{once:true}}
+
+                    className="flex flex-col bg-white rounded-3xl gap-1 h-[60vh] mt-6">
                         <div className="flex flex-[0.7] flex-col px-6 py-4 ">
                             <Image
                                 src='/assets/boo.svg'
@@ -80,12 +109,31 @@ const Work = () => {
                             <h2 className='text-start text-[#363636] text-xl font-semibold'>Product</h2>
                             <p className='text-start text-[#535353] font-semibold'>Sure, you could spend ages reading books or sitting in seminars on how to become a better spouse, parent, or manager-like we did... </p>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
 
-                <div className="flex flex-1 flex-col justify-end">
+                <motion.div 
+                initial={{ y: 40, opacity: 0 }}
+                transition={{
+                  delay: 0.5,
+                  duration: 0.8
+                }}
+                whileInView={{ y: 0, opacity: 1 }}
+                viewport={{once:true}}
+                className="flex flex-1 flex-col justify-end">
                     <div className="flex items-center justify-end">
-                        <h1 className="text-4xl text-[#6B4DEE] text-end font-bold">ahead</h1>
+                        <motion.h1 
+                        initial={{ x: 200, scale: 0,opacity:0 }}
+                        transition={{
+                          delay: 0.3,
+                          duration: 0.5,
+                          type: "spring",
+                          stiffness: 50
+              
+                        }}
+                        whileInView={{ x: 0, scale: 1,opacity:1 }}
+                        viewport={{ once: true }}
+                        className="text-4xl text-[#6B4DEE] text-end font-bold">ahead</motion.h1>
                     </div>
                     <div className="flex flex-col overflow-y-scroll  py-8 w-full px-4 mt-4">
                         {
@@ -94,7 +142,7 @@ const Work = () => {
                             ))
                         }
                     </div>
-                </div>
+                </motion.div>
 
 
 
@@ -103,7 +151,7 @@ const Work = () => {
 
 
 
-            </div>
+            </motion.div>
         </section>
     )
 }
