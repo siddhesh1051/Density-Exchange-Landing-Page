@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import Logo from '../public/assets/logo.png'
+// import Logo from '../public/assets/logo.png'
 
 const Nav = () => {
   return (
     <>
       <nav className='md:px-64 flex justify-between items-center h-16 w-full pt-2 ' >
       <Image
-      src={Logo}
+      src='/assets/logo.png'
       width={55}
       height={55}
       alt="Logo"

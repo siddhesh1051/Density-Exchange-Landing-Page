@@ -1,7 +1,7 @@
 'use client'
 
 import Image from "next/image"
-import Boo from "../public/assets/boo.svg"
+// import Boo from "../public/assets/boo.svg"
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
@@ -13,7 +13,7 @@ const Steps = () => {
 
         <h1 className='text-4xl font-bold  text-black mt-4 inline'>Self Improvement. Ugh.</h1>
         <Image
-          src={Boo}
+          src='/assets/boo.svg'
           width={80}
           height={80}
           alt="boo"

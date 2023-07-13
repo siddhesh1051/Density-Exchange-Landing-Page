@@ -1,6 +1,6 @@
-import Star from '../public/assets/star.png'
-import Mobile from '../public/assets/mobile.png'
-import Planet from '../public/assets/Planet.png'
+// import Star from '../public/assets/star.png'
+// import Mobile from '../public/assets/mobile.png'
+// import Planet from '../public/assets/Planet.png'
 import AppleStore from './AppleStore'
 import Image from 'next/image'
 
@@ -23,31 +23,31 @@ const Hero = () => {
                             <div className="flex justify-start">
 
                                 <Image
-                                    src={Star}
+                                    src='/assets/star.png'
                                     width={20}
                                     height={20}
                                     alt="rating"
                                 />
                                 <Image
-                                    src={Star}
+                                    src='/assets/star.png'
                                     width={20}
                                     height={20}
                                     alt="rating"
                                 />
                                 <Image
-                                    src={Star}
+                                    src='/assets/star.png'
                                     width={20}
                                     height={20}
                                     alt="rating"
                                 />
                                 <Image
-                                    src={Star}
+                                    src='/assets/star.png'
                                     width={20}
                                     height={20}
                                     alt="rating"
                                 />
                                 <Image
-                                    src={Star}
+                                    src='/assets/star.png'
                                     width={20}
                                     height={20}
                                     alt="rating"
@@ -70,7 +70,7 @@ const Hero = () => {
                     </div>
                     <div className='z-10 absolute top-0'>
                         <Image
-                            src={Planet}
+                            src='/assets/planet.png'
                             width={75}
                             height={75}
                             alt="planet"
@@ -79,7 +79,7 @@ const Hero = () => {
                     </div>
                     <div className='z-10 absolute left-0 -rotate-45'>
                         <Image
-                            src={Planet}
+                            src='/assets/planet.png'
                             width={75}
                             height={75}
                             alt="planet"
@@ -88,7 +88,7 @@ const Hero = () => {
                     </div>
                     <div className='z-10 absolute bottom-0 rotate-45'>
                         <Image
-                            src={Planet}
+                            src='/assets/planet.png'
                             width={75}
                             height={75}
                             alt="planet"
@@ -97,7 +97,7 @@ const Hero = () => {
                     </div>
                     <div className='z-10 absolute right-0 -rotate-45'>
                         <Image
-                            src={Planet}
+                            src='/assets/planet.png'
                             width={75}
                             height={75}
                             alt="planet"
@@ -107,7 +107,7 @@ const Hero = () => {
 
                     <div className='flex justify-center items-center z-10'>
                         <Image
-                            src={Mobile}
+                            src='/assets/mobile.png'
                             width={300}
                             height={300}
                             alt="mobile"

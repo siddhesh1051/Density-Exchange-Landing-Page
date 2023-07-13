@@ -1,7 +1,7 @@
 import '../app/globals.css'
 import Image from 'next/image'
-import Sun from '../public/assets/sun.png'
-import Path from '../public/assets/path.png'
+// import Sun from '../public/assets/sun.png'
+// import Path from '../public/assets/path.png'
 const Procedure = () => {
   return (
     <section className='md:px-24 flex mt-40 font-[Montserrat]'>
@@ -16,7 +16,7 @@ const Procedure = () => {
           <ul className="timeline mt-12 ml-40" id="timeline">
             <li className="li">
               <div className="timestamp ">
-                <Image src={Sun} width={50} height={50} className='-mb-6' />
+                <Image src='/assets/sun.png' width={50} height={50} className='-mb-6' />
 
               </div>
               <div className="status">
@@ -26,7 +26,7 @@ const Procedure = () => {
             <li className="li ">
               <div className="timestamp">
                 
-                <Image src={Sun} width={50} height={50} className='-mb-6'/>
+                <Image src='/assets/sun.png' width={50} height={50} className='-mb-6'/>
               </div>
               <div className="status">
                 <h4>Let others anonymously answer the same questions about you</h4>
@@ -35,7 +35,7 @@ const Procedure = () => {
             <li className="li">
               <div className="timestamp" id="last">
                 
-                <Image src={Sun} width={50} height={50} className='-mb-6'/>
+                <Image src='/assets/sun.png' width={50} height={50} className='-mb-6'/>
 
               </div>
               <div className="status">
@@ -47,7 +47,7 @@ const Procedure = () => {
 
         </div>
         <div className='flex justify-center items-center mt-4 '>
-        <Image src={Path} width={500} height={500} className='p-2' />
+        <Image src='/assets/path.png' width={500} height={500} className='p-2' />
         </div>
       </div>
     </section>

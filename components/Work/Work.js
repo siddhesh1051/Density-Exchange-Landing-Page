@@ -1,4 +1,4 @@
-import Boo from '../../public/assets/boo.svg'
+// import Boo from '../../public/assets/boo.svg'
 import AboutCard from './AboutCard'
 import Image from 'next/image'
 
@@ -65,7 +65,7 @@ const Work = () => {
                     <div className="flex flex-col bg-white rounded-3xl gap-1 h-[60vh] mt-6">
                         <div className="flex flex-[0.7] flex-col px-6 py-4 ">
                             <Image
-                                src={Boo}
+                                src='/assets/boo.svg'
                                 width={100}
                                 height={100}
                                 alt="boo"

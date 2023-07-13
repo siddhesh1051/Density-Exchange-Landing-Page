@@ -1,4 +1,4 @@
-import Apple from '../public/assets/apple.svg'
+// import Apple from '../public/assets/apple.svg'
 import Image from 'next/image'
 
 
@@ -6,7 +6,7 @@ const AppleStore = () => {
   return (
     <div className='flex justify-center items-center w-40 h-12 bg-black rounded-md '>
     <Image
-        src={Apple}
+        src='/assets/apple.svg'
         width={35}
         height={35}
         alt="Logo"

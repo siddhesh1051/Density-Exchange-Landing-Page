@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import Boo_Circle from '../public/assets/boo.svg'
-import Right_emoji from '../public/assets/emote-right.png'
+// import Boo_Circle from '../public/assets/boo.svg'
+// import Right_emoji from '../public/assets/emote-right.png'
 
 
 const Appbanner = () => {
@@ -15,7 +15,7 @@ const Appbanner = () => {
 
 
                         <Image
-                            src={Boo_Circle}
+                            src='/assets/boo.svg'
                             width={250}
                             height={250}
                             alt="hero"
@@ -37,7 +37,7 @@ const Appbanner = () => {
                     <p className='mb-3  '>A personalized pocket coach that provides bite-sized,science driven tools to boost emotional intelligence.</p>
                     <p>Think of it as pocket cheerleader towards a better,more fulflling.</p>
                     <Image
-                            src={Right_emoji}
+                            src='/assets/emote-right.png'
                             width={150}
                             height={150}
                             alt="hero"

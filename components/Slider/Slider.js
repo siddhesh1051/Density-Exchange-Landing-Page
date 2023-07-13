@@ -1,5 +1,5 @@
 import Card from './Card'
-import Boo from '../../public/assets/boo.svg'
+// import Boo from '../../public/assets/boo.svg'
 import Image from 'next/image'
 
 
@@ -30,7 +30,7 @@ const Slider = () => {
 
         <h1 className='md:pl-40 flex text-4xl font-bold '>Does this sound familiar...</h1>
         <Image
-          src={Boo}
+          src='/assets/boo.svg'
           width={100}
           height={100}
           alt="boo"

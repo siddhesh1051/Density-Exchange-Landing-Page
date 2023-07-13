@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import SignSvg from '../public/assets/Sign.svg'
+//  import SignSvg from '../public/assets/Sign.svg'
 
 const Sign = () => {
   return (
@@ -13,7 +13,7 @@ const Sign = () => {
         <div className='flex justify-center items-center text-center'> 
 
         <p className='text-[#363636] text-sm font-semibold inline mt-2'>with love, </p>
-        <Image src={SignSvg} width={150} height={150} className='inline ml-2' />
+        <Image src='/assets/Sign.svg' width={150} height={150} className='inline ml-2' />
         </div>
         <button className='flex justify-center items-center bg-black text-[#f3f3f3] rounded-[50px] py-3 px-6 shadow-2xl mt-2'> 
         Start a test
